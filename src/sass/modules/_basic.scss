@@ -1,0 +1,15 @@
+@mixin text-color($color) {
+    color: $color;
+}
+body { 
+    @include text-color(#ffffff);
+    background: #000000;
+    padding: 20px;
+    width: 100%;
+    h1 {
+        font: 600 22px sans-serif;
+    }
+    p {
+        font: 400 18px sans-serif;
+    }
+}
